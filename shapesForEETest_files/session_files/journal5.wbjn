@@ -1,0 +1,46 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="Geom 1")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+system2 = GetSystem(Name="SYS 1")
+mesh1 = system2.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+template1 = GetTemplate(TemplateName="Geometry")
+system3 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system2)
+geometry2 = system3.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsDiscoveryGeometry=True)
+geometry2.Exit()
+system3.Delete()
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+system4 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system2)
+system4.DisplayText = "1mm characteristic length with dimensions off of comflics video"
+geometry3 = system4.GetContainer(ComponentName="Geometry")
+geometry3.Edit(IsDiscoveryGeometry=True)
+geometry3.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+geometry3.Exit()
+template2 = GetTemplate(TemplateName="Mesh")
+geometryComponent1 = system4.GetComponent(Name="Geometry")
+system5 = template2.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Right",
+    RelativeTo=system4)
+meshComponent1 = system5.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh2 = system5.GetContainer(ComponentName="Mesh")
+mesh2.Edit()
+mesh2.Exit()
+mesh2.Edit()
+mesh1.Edit()
+mesh1.Exit()
+mesh2.Exit()
+Save(Overwrite=True)
