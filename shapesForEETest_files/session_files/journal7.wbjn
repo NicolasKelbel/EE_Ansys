@@ -1,0 +1,24 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="Geom 2")
+system1.Copy(KeepConnections=True)
+template1 = GetTemplate(TemplateName="Mesh")
+system2 = GetSystem(Name="Geom 3")
+geometryComponent1 = system2.GetComponent(Name="Geometry")
+system3 = template1.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Right",
+    RelativeTo=system2)
+meshComponent1 = system3.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system3.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+mesh1.Edit()
+mesh1.Exit()
+mesh1.Edit()
+mesh1.Exit()
+mesh1.Edit()
+mesh1.Exit()
+Save(Overwrite=True)
