@@ -1,0 +1,45 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+template1 = GetTemplate(TemplateName="Geometry")
+system1 = GetSystem(Name="SYS 3")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+system2.Delete()
+system3 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+system3.DisplayText = "4 Sided Shape"
+geometry2 = system3.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+geometry2.Exit()
+system4 = GetSystem(Name="Geom 4")
+system4.DisplayText = "3 Sided Shape Old"
+system5 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system3)
+system5.DisplayText = "3 Sided Shape"
+geometry3 = system5.GetContainer(ComponentName="Geometry")
+geometry3.Edit(IsSpaceClaimGeometry=True)
+geometry3.Exit()
+system5.Delete()
+template2 = GetTemplate(TemplateName="Mesh")
+geometryComponent1 = system3.GetComponent(Name="Geometry")
+system6 = template2.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Right",
+    RelativeTo=system3)
+meshComponent1 = system6.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system6.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+mesh1.Edit()
+mesh1.Exit()
+Save(Overwrite=True)
+Save(Overwrite=True)
