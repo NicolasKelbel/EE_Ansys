@@ -1,0 +1,48 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="Geom 7")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+geometry1.Exit()
+template1 = GetTemplate(TemplateName="Mesh")
+geometryComponent1 = system1.GetComponent(Name="Geometry")
+system2 = template1.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Right",
+    RelativeTo=system1)
+meshComponent1 = system2.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system2.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+mesh1.Edit()
+Save(Overwrite=True)
+mesh1.Exit()
+Save(Overwrite=True)
+template2 = GetTemplate(TemplateName="Geometry")
+system3 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system2)
+system3.DisplayText = "6 Sided Shape"
+geometry2 = system3.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry2.Exit()
+system4 = GetSystem(Name="Geom 6")
+geometry3 = system4.GetContainer(ComponentName="Geometry")
+geometry3.Edit(IsSpaceClaimGeometry=True)
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometry3.Exit()
+geometryComponent2 = system3.GetComponent(Name="Geometry")
+system5 = template1.CreateSystem(
+    ComponentsToShare=[geometryComponent2],
+    Position="Right",
+    RelativeTo=system3)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)

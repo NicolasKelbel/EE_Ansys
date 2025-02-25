@@ -1,0 +1,13 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+template1 = GetTemplate(TemplateName="Geometry")
+system1 = GetSystem(Name="SYS 2")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+system2.DisplayText = "5 Sided Shape"
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+Save(Overwrite=True)

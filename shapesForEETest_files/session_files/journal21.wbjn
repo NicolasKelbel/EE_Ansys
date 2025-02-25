@@ -1,0 +1,14 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="SYS 8")
+meshComponent1 = system1.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Edit()
+mesh1.Exit()
+mesh1.Edit()
+Save(Overwrite=True)
+mesh1.Exit()
+Save(Overwrite=True)
