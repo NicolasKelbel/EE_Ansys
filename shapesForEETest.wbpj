@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="24.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">13285</timestamp-max>
+    <timestamp-max valType="Int64">13542</timestamp-max>
     <framework-build-version valType="String">24.2.133.0</framework-build-version>
     <external-version-string valType="String">2024 R2</external-version-string>
-    <last-saved-utc valType="String">03/07/2025 12:26:58</last-saved-utc>
+    <last-saved-utc valType="String">03/07/2025 22:06:56</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">Nicolas@NICIS-DESKTOP:C:\Users\Nicolas\AppData\Local\Temp\WorkbenchLogs\CoreEvents36328.log</ArrayEntry>
@@ -32,6 +32,7 @@
       <ArrayEntry Index="21">nicol@NICIS-LAPTOP:C:\Users\nicol\AppData\Local\Temp\WorkbenchLogs\CoreEvents18332.log</ArrayEntry>
       <ArrayEntry Index="22">Nicolas@NICIS-DESKTOP:C:\Users\Nicolas\AppData\Local\Temp\WorkbenchLogs\CoreEvents33700.log</ArrayEntry>
       <ArrayEntry Index="23">nicol@NICIS-LAPTOP:C:\Users\nicol\AppData\Local\Temp\WorkbenchLogs\CoreEvents23068.log</ArrayEntry>
+      <ArrayEntry Index="24">Nicolas@NICIS-DESKTOP:C:\Users\Nicolas\AppData\Local\Temp\WorkbenchLogs\CoreEvents34056.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -147,7 +148,19 @@
 "9f22634d-1180-407a-b5e7-9753454662af": "/Schematic/Component:Geometry 25",
 "40904f9f-de46-43c8-a843-d56ccfc21081": "/Schematic/Component:Mesh 10",
 "272acdc0-15fd-45c0-ad18-ee35e8f20704": "/Schematic/Component:Geometry 26",
-"948e9342-8ebe-4c58-a4f0-cd70cfd713a4": "/Schematic/Component:Mesh 11"
+"948e9342-8ebe-4c58-a4f0-cd70cfd713a4": "/Schematic/Component:Mesh 11",
+"c0fdfc79-b3b3-493c-87b1-8784711952ae": "/FileContainer/FileReference:F32",
+"fe81e491-3ab4-4584-9658-85abc295c30e": "/FileContainer/FileReference:F33",
+"2d20c90c-1c24-41b7-8f08-0e95c00e25eb": "/FileContainer/FileReference:F34",
+"1fd8407f-c17c-423c-89f5-ef993b64dcc8": "/Schematic/System:SYS 12",
+"6d3c5616-1e89-40b2-b99a-308df943126f": "/Schematic/System:SYS 13",
+"c67b0196-ad98-45c9-8fbc-a7fd7bc8e193": "/Schematic/System:SYS 14",
+"92e08565-77b1-4f9d-a6e8-3c33ba7c6154": "/Schematic/Component:Geometry 27",
+"72657ca7-d1f0-4b5b-8be7-92e4e539c4f9": "/Schematic/Component:Mesh 12",
+"a40c02c9-c09b-48b1-ba4c-5318bf5e190c": "/Schematic/Component:Geometry 28",
+"5e60b04a-790c-4b51-b988-d11704762d3f": "/Schematic/Component:Mesh 13",
+"84c81fa4-d73d-482c-9ec1-2934ff3357a3": "/Schematic/Component:Geometry 29",
+"4eb447a4-997c-4b42-a716-cf203e7d0c2e": "/Schematic/Component:Mesh 14"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -200,7 +213,19 @@
 "b65f5f7c-c232-434a-a337-7cda271fc93c": "/Mesh 10/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider",
 "7acc873f-9788-43eb-8ea2-5bb2c387ea8a": "/Mesh 11/MechanicalModel:MechanicalModel",
 "c5f2672d-439b-404a-9756-25fec49f739b": "/Mesh 11/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider",
-"5cae390f-dbfd-4b29-bfed-831325b5a4de": "/Mesh 11/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider"
+"5cae390f-dbfd-4b29-bfed-831325b5a4de": "/Mesh 11/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider",
+"d8dee682-b9bd-475e-a911-ba245c7af6d2": "/Geometry 22/Geometry:GeometryDataObject",
+"005b528c-a7aa-44b9-916f-3948d2124597": "/Geometry 23/Geometry:GeometryDataObject",
+"a024fa25-79af-4c36-9137-056ac82d0917": "/Geometry 24/Geometry:GeometryDataObject",
+"e1e1d5a4-0d8f-4584-8084-e5e2de9ad01a": "/Mesh 12/MechanicalModel:MechanicalModel",
+"44fe0f1a-3c03-46f4-b46c-11afa6dfa8c1": "/Mesh 12/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider",
+"e4a5a8f9-9e24-4f28-ba8e-2f2f06dfbcfe": "/Mesh 12/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider",
+"24d58133-2f50-47b7-b911-871725d636f1": "/Mesh 13/MechanicalModel:MechanicalModel",
+"04632220-1aa4-4738-9048-0a2f794e1268": "/Mesh 13/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider",
+"c48bb149-554a-413f-847b-710ff7d6b597": "/Mesh 13/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider",
+"f17aee1b-33ce-4d00-ae43-b96c53c0dd58": "/Mesh 14/MechanicalModel:MechanicalModel",
+"490b1bc9-b505-40c5-9e5f-518a7eb64b30": "/Mesh 14/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider",
+"25a70544-aff6-458c-bf0f-9e7f69ef39eb": "/Mesh 14/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -232,7 +257,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13254, "Input": 1474, "Output": 1474}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13497, "Input": 1474, "Output": 1474}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F1" Version="1.0">
@@ -243,7 +268,7 @@
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F2</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$6138af43-6cdd-4c0b-947c-22b81b4e0029, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 51}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$6138af43-6cdd-4c0b-947c-22b81b4e0029, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 52}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -380,6 +405,21 @@
         <object-name valType="String">F31</object-name>
         <member-data valType="String">{"DisplayText": "SYS-12.mshdb", "FileType": $$957c9bb7-55c9-4a63-801a-8103526bbc2f, "DependentFiles": [], "ContainerAssociations": ["Mesh 11"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-12.mshdb", "ReferenceCount": 1}</member-data>
       </Object>
+      <Object Name="/FileContainer/FileReference:F32" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F32</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-13.mshdb", "FileType": $$957c9bb7-55c9-4a63-801a-8103526bbc2f, "DependentFiles": [], "ContainerAssociations": ["Mesh 12"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-13.mshdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F33" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F33</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-14.mshdb", "FileType": $$957c9bb7-55c9-4a63-801a-8103526bbc2f, "DependentFiles": [], "ContainerAssociations": ["Mesh 13"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-14.mshdb", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F34" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F34</object-name>
+        <member-data valType="String">{"DisplayText": "SYS-15.mshdb", "FileType": $$957c9bb7-55c9-4a63-801a-8103526bbc2f, "DependentFiles": [], "ContainerAssociations": ["Mesh 14"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS-15.mshdb", "ReferenceCount": 1}</member-data>
+      </Object>
     </Container>
     <Container Name="Messages" Version="1.0">
       <container-type valType="String">Project:Messages</container-type>
@@ -437,7 +477,7 @@ Fehler bei Add-in(s) von designpoint: Ansys.DesignModeler.Core.Addin
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13243, "Input": 13241, "Output": 1481}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13486, "Input": 13484, "Output": 1481}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:Geom" Version="1.0">
@@ -563,19 +603,19 @@ Fehler bei Add-in(s) von designpoint: Ansys.DesignModeler.Core.Addin
       <Object Name="/Schematic/System:Geom 12" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">Geom 12</object-name>
-        <member-data valType="String">{"DisplayText": "10 Sided Shape", "Components": [$$0ed3387b-25ae-4482-aed3-2cd75c4413ed], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsTypeDisplayString": "Beliebig", "IsCreated": "True", "VOLATILE:SystemName": "Geom 12"}, "SystemType": "Geometry", "HeaderText": "Geometrie", "SystemTypeAbbreviation": "Geom", "UniqueSystemDirectoryName": "Geom-13", "Physics": ["Any"], "AnalysisType": None, "SystemHelpId": "wb2sb_geomapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$d9e84a1b-a1aa-4ad5-987b-b8f86e031cbb, "Notes": None, "LayoutChildren": [$$0bf62b37-a372-486e-948c-cae8723fe08c], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "10 Sided Shape", "Components": [$$0ed3387b-25ae-4482-aed3-2cd75c4413ed], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsTypeDisplayString": "Beliebig", "IsCreated": "True", "VOLATILE:SystemName": "Geom 12"}, "SystemType": "Geometry", "HeaderText": "Geometrie", "SystemTypeAbbreviation": "Geom", "UniqueSystemDirectoryName": "Geom-13", "Physics": ["Any"], "AnalysisType": None, "SystemHelpId": "wb2sb_geomapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$d9e84a1b-a1aa-4ad5-987b-b8f86e031cbb, "Notes": None, "LayoutChildren": [$$0bf62b37-a372-486e-948c-cae8723fe08c, $$1fd8407f-c17c-423c-89f5-ef993b64dcc8], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/System:Geom 13" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">Geom 13</object-name>
-        <member-data valType="String">{"DisplayText": "11 Sided Shape", "Components": [$$e0e4ce0f-ad01-428a-a517-7e3bdfc3e1da], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsTypeDisplayString": "Beliebig", "IsCreated": "True", "VOLATILE:SystemName": "Geom 13"}, "SystemType": "Geometry", "HeaderText": "Geometrie", "SystemTypeAbbreviation": "Geom", "UniqueSystemDirectoryName": "Geom-14", "Physics": ["Any"], "AnalysisType": None, "SystemHelpId": "wb2sb_geomapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$d9e84a1b-a1aa-4ad5-987b-b8f86e031cbb, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "11 Sided Shape", "Components": [$$e0e4ce0f-ad01-428a-a517-7e3bdfc3e1da], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsTypeDisplayString": "Beliebig", "IsCreated": "True", "VOLATILE:SystemName": "Geom 13"}, "SystemType": "Geometry", "HeaderText": "Geometrie", "SystemTypeAbbreviation": "Geom", "UniqueSystemDirectoryName": "Geom-14", "Physics": ["Any"], "AnalysisType": None, "SystemHelpId": "wb2sb_geomapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$d9e84a1b-a1aa-4ad5-987b-b8f86e031cbb, "Notes": None, "LayoutChildren": [$$6d3c5616-1e89-40b2-b99a-308df943126f], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/System:Geom 14" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">Geom 14</object-name>
-        <member-data valType="String">{"DisplayText": "12 Sided Shape", "Components": [$$12f6bfe3-cd4e-4d84-b150-7737661a9501], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsTypeDisplayString": "Beliebig", "IsCreated": "True", "VOLATILE:SystemName": "Geom 14"}, "SystemType": "Geometry", "HeaderText": "Geometrie", "SystemTypeAbbreviation": "Geom", "UniqueSystemDirectoryName": "Geom-15", "Physics": ["Any"], "AnalysisType": None, "SystemHelpId": "wb2sb_geomapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$d9e84a1b-a1aa-4ad5-987b-b8f86e031cbb, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "12 Sided Shape", "Components": [$$12f6bfe3-cd4e-4d84-b150-7737661a9501], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsTypeDisplayString": "Beliebig", "IsCreated": "True", "VOLATILE:SystemName": "Geom 14"}, "SystemType": "Geometry", "HeaderText": "Geometrie", "SystemTypeAbbreviation": "Geom", "UniqueSystemDirectoryName": "Geom-15", "Physics": ["Any"], "AnalysisType": None, "SystemHelpId": "wb2sb_geomapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$d9e84a1b-a1aa-4ad5-987b-b8f86e031cbb, "Notes": None, "LayoutChildren": [$$c67b0196-ad98-45c9-8fbc-a7fd7bc8e193], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/System:SYS 10" Version="1.0">
@@ -587,6 +627,21 @@ Fehler bei Add-in(s) von designpoint: Ansys.DesignModeler.Core.Addin
         <class-type valType="String">System</class-type>
         <object-name valType="String">SYS 11</object-name>
         <member-data valType="String">{"DisplayText": "Netz", "Components": [$$272acdc0-15fd-45c0-ad18-ee35e8f20704, $$948e9342-8ebe-4c58-a4f0-cd70cfd713a4], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$948e9342-8ebe-4c58-a4f0-cd70cfd713a4], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "Any", "AnalysisType": "Any", "SolverType": "Any", "SolverTypeDisplayString": "Beliebig", "PhysicsTypeDisplayString": "Beliebig", "AnalysisTypeDisplayString": "Beliebig", "SystemName": "Mesh", "VOLATILE:SystemName": "SYS 11"}, "SystemType": "Mesh", "HeaderText": "Netz", "SystemTypeAbbreviation": "SYS", "UniqueSystemDirectoryName": "SYS-12", "Physics": [], "AnalysisType": None, "SystemHelpId": None, "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$7fad3af0-6ef9-4c50-8610-1df8663a4fe7, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+      </Object>
+      <Object Name="/Schematic/System:SYS 12" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">SYS 12</object-name>
+        <member-data valType="String">{"DisplayText": "Netz", "Components": [$$92e08565-77b1-4f9d-a6e8-3c33ba7c6154, $$72657ca7-d1f0-4b5b-8be7-92e4e539c4f9], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$72657ca7-d1f0-4b5b-8be7-92e4e539c4f9], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "Any", "AnalysisType": "Any", "SolverType": "Any", "SolverTypeDisplayString": "Beliebig", "PhysicsTypeDisplayString": "Beliebig", "AnalysisTypeDisplayString": "Beliebig", "SystemName": "Mesh", "VOLATILE:SystemName": "SYS 12"}, "SystemType": "Mesh", "HeaderText": "Netz", "SystemTypeAbbreviation": "SYS", "UniqueSystemDirectoryName": "SYS-13", "Physics": [], "AnalysisType": None, "SystemHelpId": None, "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$7fad3af0-6ef9-4c50-8610-1df8663a4fe7, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+      </Object>
+      <Object Name="/Schematic/System:SYS 13" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">SYS 13</object-name>
+        <member-data valType="String">{"DisplayText": "Netz", "Components": [$$a40c02c9-c09b-48b1-ba4c-5318bf5e190c, $$5e60b04a-790c-4b51-b988-d11704762d3f], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$5e60b04a-790c-4b51-b988-d11704762d3f], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "Any", "AnalysisType": "Any", "SolverType": "Any", "SolverTypeDisplayString": "Beliebig", "PhysicsTypeDisplayString": "Beliebig", "AnalysisTypeDisplayString": "Beliebig", "SystemName": "Mesh", "VOLATILE:SystemName": "SYS 13"}, "SystemType": "Mesh", "HeaderText": "Netz", "SystemTypeAbbreviation": "SYS", "UniqueSystemDirectoryName": "SYS-14", "Physics": [], "AnalysisType": None, "SystemHelpId": None, "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$7fad3af0-6ef9-4c50-8610-1df8663a4fe7, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+      </Object>
+      <Object Name="/Schematic/System:SYS 14" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">SYS 14</object-name>
+        <member-data valType="String">{"DisplayText": "Netz", "Components": [$$84c81fa4-d73d-482c-9ec1-2934ff3357a3, $$4eb447a4-997c-4b42-a716-cf203e7d0c2e], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$4eb447a4-997c-4b42-a716-cf203e7d0c2e], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": "Any", "AnalysisType": "Any", "SolverType": "Any", "SolverTypeDisplayString": "Beliebig", "PhysicsTypeDisplayString": "Beliebig", "AnalysisTypeDisplayString": "Beliebig", "SystemName": "Mesh", "VOLATILE:SystemName": "SYS 14"}, "SystemType": "Mesh", "HeaderText": "Netz", "SystemTypeAbbreviation": "SYS", "UniqueSystemDirectoryName": "SYS-15", "Physics": [], "AnalysisType": None, "SystemHelpId": None, "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$7fad3af0-6ef9-4c50-8610-1df8663a4fe7, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
       </Object>
       <Object Name="/Schematic/SchematicSettings:Schematic Settings" Version="1.0">
         <class-type valType="String">SchematicSettings</class-type>
@@ -842,6 +897,36 @@ Fehler bei Add-in(s) von designpoint: Ansys.DesignModeler.Core.Addin
         <class-type valType="String">Component</class-type>
         <object-name valType="String">Mesh 11</object-name>
         <member-data valType="String">{"DisplayText": "Netz", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh 11", "_overwrittenUpdatable": None, "Template": $$fe3d605c-643b-48bd-b181-9cce1d3eead5, "InSystem": $$fd6d5f93-29c9-4d2f-97a2-42ee388d309c, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$272acdc0-15fd-45c0-ad18-ee35e8f20704, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Geometry 27" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Geometry 27</object-name>
+        <member-data valType="String">{"DisplayText": "Geometrie", "ImageName": "cad_spaceclaim", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": [], "CoupledClients": [], "SubComponents": [], "DataSharedFrom": $$0ed3387b-25ae-4482-aed3-2cd75c4413ed, "DataSharing": "Full", "DataContainer": "Geometry 22", "_overwrittenUpdatable": None, "Template": $$2ec11416-3135-41c0-bda1-08a845f7382c, "InSystem": $$1fd8407f-c17c-423c-89f5-ef993b64dcc8, "MasterSources": None, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Mesh 12" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Mesh 12</object-name>
+        <member-data valType="String">{"DisplayText": "Netz", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh 12", "_overwrittenUpdatable": None, "Template": $$fe3d605c-643b-48bd-b181-9cce1d3eead5, "InSystem": $$1fd8407f-c17c-423c-89f5-ef993b64dcc8, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$92e08565-77b1-4f9d-a6e8-3c33ba7c6154, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Geometry 28" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Geometry 28</object-name>
+        <member-data valType="String">{"DisplayText": "Geometrie", "ImageName": "cad_spaceclaim", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": [], "CoupledClients": [], "SubComponents": [], "DataSharedFrom": $$e0e4ce0f-ad01-428a-a517-7e3bdfc3e1da, "DataSharing": "Full", "DataContainer": "Geometry 23", "_overwrittenUpdatable": None, "Template": $$2ec11416-3135-41c0-bda1-08a845f7382c, "InSystem": $$6d3c5616-1e89-40b2-b99a-308df943126f, "MasterSources": None, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Mesh 13" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Mesh 13</object-name>
+        <member-data valType="String">{"DisplayText": "Netz", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh 13", "_overwrittenUpdatable": None, "Template": $$fe3d605c-643b-48bd-b181-9cce1d3eead5, "InSystem": $$6d3c5616-1e89-40b2-b99a-308df943126f, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$a40c02c9-c09b-48b1-ba4c-5318bf5e190c, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Geometry 29" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Geometry 29</object-name>
+        <member-data valType="String">{"DisplayText": "Geometrie", "ImageName": "cad_spaceclaim", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": [], "CoupledClients": [], "SubComponents": [], "DataSharedFrom": $$12f6bfe3-cd4e-4d84-b150-7737661a9501, "DataSharing": "Full", "DataContainer": "Geometry 24", "_overwrittenUpdatable": None, "Template": $$2ec11416-3135-41c0-bda1-08a845f7382c, "InSystem": $$c67b0196-ad98-45c9-8fbc-a7fd7bc8e193, "MasterSources": None, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": None, "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Mesh 14" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Mesh 14</object-name>
+        <member-data valType="String">{"DisplayText": "Netz", "ImageName": "model2", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Mesh 14", "_overwrittenUpdatable": None, "Template": $$fe3d605c-643b-48bd-b181-9cce1d3eead5, "InSystem": $$c67b0196-ad98-45c9-8fbc-a7fd7bc8e193, "MasterSources": {"Sources": [[{"DataType": "Geometry", "Component": $$84c81fa4-d73d-482c-9ec1-2934ff3357a3, "Transfer": None}]]}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
       </Object>
     </Container>
     <Container Name="ReportDataContainer" Version="1.0">

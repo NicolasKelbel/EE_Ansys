@@ -1,0 +1,35 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="SYS 9")
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+template1 = GetTemplate(TemplateName="Mesh")
+system2 = GetSystem(Name="Geom 10")
+geometryComponent1 = system2.GetComponent(Name="Geometry")
+system3 = GetSystem(Name="Geom 12")
+system4 = template1.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Below",
+    RelativeTo=system3)
+meshComponent1 = system4.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh2 = system4.GetContainer(ComponentName="Mesh")
+mesh2.Edit()
+mesh2.Exit()
+mesh2.Edit()
+mesh2.Exit()
+system5 = GetSystem(Name="Geom 11")
+geometryComponent2 = system5.GetComponent(Name="Geometry")
+system6 = GetSystem(Name="Geom 13")
+system7 = template1.CreateSystem(
+    ComponentsToShare=[geometryComponent2],
+    Position="Below",
+    RelativeTo=system6)
+meshComponent2 = system7.GetComponent(Name="Mesh")
+meshComponent2.Refresh()
+mesh3 = system7.GetContainer(ComponentName="Mesh")
+mesh3.Edit()
+mesh3.Exit()
+Save(Overwrite=True)
