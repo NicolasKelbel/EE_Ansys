@@ -11,7 +11,7 @@
     <Addin Name="Ansys.DesignModeler.Core.Addin" Version="21.2.0.0" />
   </Addins>
   <Containers>
-    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Geometry": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 2": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 1": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 4": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 2": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 8": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 4": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 10": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 5": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 6": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 3": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 12": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 6": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 14": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 7": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 16": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 8": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 18": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 9": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 20": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 21": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 22": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 23": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 24": Ansys.DesignModeler.Core.Addin:Geometry}</container-map>
+    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Geometry": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 2": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 1": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 4": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 2": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 8": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 4": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 10": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 5": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 6": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 3": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 12": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 6": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 14": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 7": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 16": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 8": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 18": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 9": Ansys.Meshing.Core.Addin:SimulationModel, "Geometry 20": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 21": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 22": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 23": Ansys.DesignModeler.Core.Addin:Geometry, "Geometry 24": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 10": Ansys.Meshing.Core.Addin:SimulationModel, "Mesh 11": Ansys.Meshing.Core.Addin:SimulationModel}</container-map>
     <static-container-ids valType="String">{"Scopes": Scopes}</static-container-ids>
     <Container Name="Scopes" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:scopes</container-type>
@@ -33,7 +33,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">2468</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13079, "Input": 2465, "Output": 2465}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13257, "Input": 2465, "Output": 2465}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -152,7 +152,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">2988</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13081, "Input": 2985, "Output": 2985}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13259, "Input": 2985, "Output": 2985}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-1</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -276,7 +276,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">3681</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13083, "Input": 3679, "Output": 3679}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13261, "Input": 3679, "Output": 3679}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-2</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -400,7 +400,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">5333</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13085, "Input": 5331, "Output": 5331}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13263, "Input": 5331, "Output": 5331}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-4</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -514,7 +514,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">5649</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13087, "Input": 5647, "Output": 5647}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13265, "Input": 5647, "Output": 5647}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-5</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -628,7 +628,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">6081</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13089, "Input": 6079, "Output": 6079}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13267, "Input": 6079, "Output": 6079}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-6</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -742,7 +742,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">6743</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13091, "Input": 6741, "Output": 6741}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13269, "Input": 6741, "Output": 6741}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-7</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -866,7 +866,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">7568</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13093, "Input": 7566, "Output": 7566}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13271, "Input": 7566, "Output": 7566}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-8</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -990,7 +990,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">8069</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13095, "Input": 8067, "Output": 8067}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13273, "Input": 8067, "Output": 8067}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-9</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1109,7 +1109,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">9191</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13097, "Input": 9189, "Output": 9189}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13275, "Input": 9189, "Output": 9189}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-10</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1145,7 +1145,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 9306, "Input": 9306, "Output": 9306}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13109, "Input": 9306, "Output": 9306}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "RepContainer": 0, "Scopes": 0, "Geometry": 2468, "Mesh": 2628, "Geometry 2": 2988, "Mesh 1": 3112, "Geometry 4": 3681, "Mesh 2": 3866, "Geometry 8": 5333, "Mesh 4": 5477, "Geometry 10": 5649, "Mesh 5": 5725, "Geometry 6": 6081, "Mesh 3": 6156, "Geometry 12": 6743, "Mesh 6": 7117, "Geometry 14": 7568, "Mesh 7": 0, "Geometry 16": 8069, "Mesh 8": 0, "Geometry 18": 9191, "Mesh 9": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS-10</unique-system-dir>
@@ -1223,7 +1223,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">10060</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13099, "Input": 10058, "Output": 10058}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13277, "Input": 10058, "Output": 10058}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-11</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1235,7 +1235,7 @@
       <Object Name="/Geometry 20/Geometry:GeometryDataObject" Version="1.0">
         <class-type valType="String">Geometry</class-type>
         <object-name valType="String">GeometryDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\Geom-11\DM\Geom-11.scdoc", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$bcf4b637-715f-44d1-99eb-b71b95b4a973, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "88529842-06f5-40ba-86f8-42536674ff84", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$bcf4b637-715f-44d1-99eb-b71b95b4a973": {"FilePathInDM": r"D:\EE_Ansys\shapesForEETest_files\dp0\Geom-11\DM\Geom-11.scdoc", "FilePathAfterRepair": r"D:\EE_Ansys\shapesForEETest_files\dp0\Geom-11\DM\Geom-11.scdoc", "IsFileRepaired": False, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
+        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\Geom-11\DM\Geom-11.scdoc", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$bcf4b637-715f-44d1-99eb-b71b95b4a973, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "88529842-06f5-40ba-86f8-42536674ff84", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$bcf4b637-715f-44d1-99eb-b71b95b4a973": {"FilePathInDM": r"D:\EE_Ansys\shapesForEETest_files\dp0\Geom-11\DM\Geom-11.scdoc", "FilePathAfterRepair": r"C:\EE_Ansys\shapesForEETest_files\dp0\Geom-11\DM\Geom-11.scdoc", "IsFileRepaired": True, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
         <properties-setByUserFlag-data valType="String">["ObjectState"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Geometry 20/SpaceClaimCallBackData:SCDataObject" Version="1.0">
@@ -1243,13 +1243,23 @@
         <object-name valType="String">SCDataObject</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "88529842-06f5-40ba-86f8-42536674ff84"}</member-data>
       </Object>
+      <Object Name="/Geometry 20/SpaceClaimCallBackData:SCDataObject 1" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 1</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "88529842-06f5-40ba-86f8-42536674ff84"}</member-data>
+      </Object>
+      <Object Name="/Geometry 20/TransferData:Geometry" Version="1.0">
+        <class-type valType="String">TransferData</class-type>
+        <object-name valType="String">Geometry</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ConnectionKeys": ["d2eead61-d9bb-44f9-af9e-f80b104a8c1e"], "Data": $$6494d528-4ff5-44c0-b75c-b1aff83a8a30}</member-data>
+      </Object>
     </Container>
     <Container Name="Geometry 21" Version="1.0">
       <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">10990</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13101, "Input": 10988, "Output": 10988}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13279, "Input": 10988, "Output": 10988}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-12</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1261,7 +1271,7 @@
       <Object Name="/Geometry 21/Geometry:GeometryDataObject" Version="1.0">
         <class-type valType="String">Geometry</class-type>
         <object-name valType="String">GeometryDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\Geom-12\DM\Geom-12.scdoc", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$0638b592-3b4d-4fe2-9b00-470148ab46ce, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "64feeccd-fd12-4e27-baa0-fed32d926592", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$0638b592-3b4d-4fe2-9b00-470148ab46ce": {"FilePathInDM": r"D:\EE_Ansys\shapesForEETest_files\dp0\Geom-12\DM\Geom-12.scdoc", "FilePathAfterRepair": r"D:\EE_Ansys\shapesForEETest_files\dp0\Geom-12\DM\Geom-12.scdoc", "IsFileRepaired": False, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
+        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\Geom-12\DM\Geom-12.scdoc", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$0638b592-3b4d-4fe2-9b00-470148ab46ce, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "64feeccd-fd12-4e27-baa0-fed32d926592", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$0638b592-3b4d-4fe2-9b00-470148ab46ce": {"FilePathInDM": r"D:\EE_Ansys\shapesForEETest_files\dp0\Geom-12\DM\Geom-12.scdoc", "FilePathAfterRepair": r"C:\EE_Ansys\shapesForEETest_files\dp0\Geom-12\DM\Geom-12.scdoc", "IsFileRepaired": True, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
         <properties-setByUserFlag-data valType="String">["ObjectState"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Geometry 21/SpaceClaimCallBackData:SCDataObject" Version="1.0">
@@ -1269,13 +1279,23 @@
         <object-name valType="String">SCDataObject</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "64feeccd-fd12-4e27-baa0-fed32d926592"}</member-data>
       </Object>
+      <Object Name="/Geometry 21/SpaceClaimCallBackData:SCDataObject 1" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 1</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "64feeccd-fd12-4e27-baa0-fed32d926592"}</member-data>
+      </Object>
+      <Object Name="/Geometry 21/TransferData:Geometry" Version="1.0">
+        <class-type valType="String">TransferData</class-type>
+        <object-name valType="String">Geometry</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ConnectionKeys": ["e00ad2e3-d3dd-4f35-ad41-0dc2affcba88"], "Data": $$6864c7d6-aca9-4c77-8c90-281ea7bdf6ae}</member-data>
+      </Object>
     </Container>
     <Container Name="Geometry 22" Version="1.0">
       <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">11841</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13103, "Input": 11839, "Output": 11839}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13281, "Input": 11839, "Output": 11839}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-13</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1301,7 +1321,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">12387</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13105, "Input": 12385, "Output": 12385}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13283, "Input": 12385, "Output": 12385}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-14</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1327,7 +1347,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">13073</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 13107, "Input": 13071, "Output": 13071}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13285, "Input": 13071, "Output": 13071}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom-15</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1346,6 +1366,162 @@
         <class-type valType="String">SpaceClaimCallBackData</class-type>
         <object-name valType="String">SCDataObject</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "d1b303a3-667f-466b-8923-97d48b99826e"}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Mesh 10" Version="1.0">
+      <container-type valType="String">Ansys.Meshing.Core.Addin:SimulationModel</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">13183</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13199, "Input": 13199, "Output": 13199}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "RepContainer": 0, "Scopes": 0, "Geometry": 2468, "Mesh": 2628, "Geometry 2": 2988, "Mesh 1": 3112, "Geometry 4": 3681, "Mesh 2": 3866, "Geometry 8": 5333, "Mesh 4": 5477, "Geometry 10": 5649, "Mesh 5": 5725, "Geometry 6": 6081, "Mesh 3": 6156, "Geometry 12": 6743, "Mesh 6": 7117, "Geometry 14": 7568, "Mesh 7": 0, "Geometry 16": 8069, "Mesh 8": 0, "Geometry 18": 9191, "Mesh 9": 0, "Geometry 20": 10060, "Geometry 21": 10990, "Geometry 22": 11841, "Geometry 23": 12387, "Geometry 24": 13073, "Mesh 10": 13183, "SpaceClaimSessionContainer": 0}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS-11</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Mesh 10/SimulationConnection:SimulationConnection" Version="1.0">
+        <class-type valType="String">SimulationConnection</class-type>
+        <object-name valType="String">SimulationConnection</object-name>
+        <member-data valType="String">{"DisplayText": "SimulationConnection", "_IsAssemblyMeshing": False, "_MeshingSolverSetting": 0, "Caption": "SimulationConnection", "EventIdToDataReferenceMap": {}, "DSIdToDataReferenceMap": {"13": {"CellModel": $$0c2263c2-9a8a-455b-95d2-f16d5e01bde6}, "10": {"CellModel": $$0c2263c2-9a8a-455b-95d2-f16d5e01bde6}, "14": {"CellModel": $$0c2263c2-9a8a-455b-95d2-f16d5e01bde6}}, "Attributes": {}}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/MechanicalSystemType:SystemType for Any|Any|Any" Version="1.0">
+        <class-type valType="String">MechanicalSystemType</class-type>
+        <object-name valType="String">SystemType for Any|Any|Any</object-name>
+        <member-data valType="String">{"DisplayText": None, "PhysicsType": "Any", "AnalysisType": "Any", "SolverType": "Any", "PhysicsTypeDisplayString": "Beliebig", "AnalysisTypeDisplayString": "Beliebig", "SolverTypeDisplayString": "Beliebig", "SystemTypeCombination": None, "DelimitedSystemTypeCominbation": None, "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "MechanicalSetup", "SolutionDataEntityType": "MechanicalSolution", "ResultsDataEntityType": "MechanicalResults", "Id": None, "SystemName": "SYS 10", "SystemID": "SYS-11", "ICEngineAutoSetup": False, "ICEngineMeshSettings": "Edit Mesh Settings", "ICEngineMeshPanelValues": None, "RefMeshSize": "0 [mm]"}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/MeshingMesh:MeshingMeshDataObject" Version="1.0">
+        <class-type valType="String">MeshingMesh</class-type>
+        <object-name valType="String">MeshingMeshDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "MeshingMeshDataObject", "Caption": "Mesh", "MeshId": 14}</member-data>
+        <custom-data>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ImportedMeshFileType valType="String">0</ImportedMeshFileType>
+          <value-keys valType="String">{"AttentionRequired": System.Boolean, "ImportedMeshFileType": System.Int32}</value-keys>
+          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
+          <transferDataMap />
+        </custom-data>
+      </Object>
+      <Object Name="/Mesh 10/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider" Version="1.0">
+        <class-type valType="String">MeshingGeneratedMeshOutputProvider</class-type>
+        <object-name valType="String">MeshingGeneratedMeshOutputProvider</object-name>
+        <member-data valType="String">{"DisplayText": "MeshingGeneratedMeshOutputProvider", "DataConnections": [], "TransferDataObject": $$30100a19-4a7b-464b-b306-2abf81b49bc3, "VersionNumber": 1, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider" Version="1.0">
+        <class-type valType="String">GeneratedMeshOutputForAQWAModelProvider</class-type>
+        <object-name valType="String">GeneratedMeshOutputForAQWAModelProvider</object-name>
+        <member-data valType="String">{"DisplayText": "GeneratedMeshOutputForAQWAModelProvider", "DataConnections": [], "TransferDataObject": $$b65f5f7c-c232-434a-a337-7cda271fc93c, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/OutputsGeneratedManagerDataEntityType:OutputsGeneratedManagerObject" Version="1.0">
+        <class-type valType="String">OutputsGeneratedManagerDataEntityType</class-type>
+        <object-name valType="String">OutputsGeneratedManagerObject</object-name>
+        <member-data valType="String">{"DisplayText": "OutputsGeneratedManagerObject", "outputGeneratedTimes": {}}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/MeshProperties:MeshProperties" Version="1.0">
+        <class-type valType="String">MeshProperties</class-type>
+        <object-name valType="String">MeshProperties</object-name>
+        <member-data valType="String">{"DisplayText": "MeshProperties", "saveMeshFileInSeparateFile": False}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/MeshConversionOptions:MeshConversionOptions" Version="1.0">
+        <class-type valType="String">MeshConversionOptions</class-type>
+        <object-name valType="String">MeshConversionOptions</object-name>
+        <member-data valType="String">{"DisplayText": "MeshConversionOptions", "ToleranceAngle": "45 [degree]", "ForbidCloseComponents": False, "CutAngle": None, "ForceCDBImport": False, "CreateGeometryFaceComponents": True, "CreateGeometryEdgeComponents": True, "CreateGeometryVertexComponents": True, "ComponentKey": "", "GeometryImportAnalysisType": "ThreeDimensional", "BodyGroupingType": "MaterialNumber", "ProcessLineBodies": True, "VertexInsertionAngle": "120 [degree]", "CreateGeometry": True}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/ContainerConnections:ModelContainerConnections" Version="1.0">
+        <class-type valType="String">ContainerConnections</class-type>
+        <object-name valType="String">ModelContainerConnections</object-name>
+        <member-data valType="String">{"DisplayText": "ModelContainerConnections", "Connections": {"Geometry 20": {"$$6494d528-4ff5-44c0-b75c-b1aff83a8a30": {"Geometry": ["d2eead61-d9bb-44f9-af9e-f80b104a8c1e"]}}}}</member-data>
+      </Object>
+      <Object Name="/Mesh 10/MechanicalModel:MechanicalModel" Version="1.0">
+        <class-type valType="String">MechanicalModel</class-type>
+        <object-name valType="String">MechanicalModel</object-name>
+        <member-data valType="String">{"DisplayText": "MechanicalModel", "Caption": "Model", "File": $$9eaa2920-38c7-47f8-9e63-6ff8e387cc25, "MeshFile": None, "EdaFile": None, "SpaceClaimMeshFile": None, "ModelId": 10, "PrototypeId": 13, "ModelHash": "35f30c31-070a-4b28-a1d1-3489c76bddf0", "GeometryHash": "35f30c31-070a-4b28-a1d1-3489c76bddf0", "IsResetNotRequired": False}</member-data>
+        <custom-data>
+          <File valType="String">9eaa2920-38c7-47f8-9e63-6ff8e387cc25</File>
+          <FilePath valType="String"></FilePath>
+          <AttentionRequired valType="String">True</AttentionRequired>
+          <ParameterValueModified valType="String">False</ParameterValueModified>
+          <IsModifiedDueToModelAssemblyPropertyChange valType="String">False</IsModifiedDueToModelAssemblyPropertyChange>
+          <IsModifiedDueToMeshConversionPropertyChange valType="String">False</IsModifiedDueToMeshConversionPropertyChange>
+          <AttachType valType="String">0</AttachType>
+          <value-keys valType="String">{"File": System.String, "FilePath": System.String, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean, "IsModifiedDueToModelAssemblyPropertyChange": System.Boolean, "IsModifiedDueToMeshConversionPropertyChange": System.Boolean, "AttachType": System.Int32}</value-keys>
+        </custom-data>
+      </Object>
+    </Container>
+    <Container Name="Mesh 11" Version="1.0">
+      <container-type valType="String">Ansys.Meshing.Core.Addin:SimulationModel</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13255, "Input": 13252, "Output": 13253}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "RepContainer": 0, "Scopes": 0, "Geometry": 2468, "Mesh": 2628, "Geometry 2": 2988, "Mesh 1": 3112, "Geometry 4": 3681, "Mesh 2": 3866, "Geometry 8": 5333, "Mesh 4": 5477, "Geometry 10": 5649, "Mesh 5": 5725, "Geometry 6": 6081, "Mesh 3": 6156, "Geometry 12": 6743, "Mesh 6": 7117, "Geometry 14": 7568, "Mesh 7": 0, "Geometry 16": 8069, "Mesh 8": 0, "Geometry 18": 9191, "Mesh 9": 0, "Geometry 20": 10060, "Geometry 21": 10990, "Geometry 22": 11841, "Geometry 23": 12387, "Geometry 24": 13073, "Mesh 10": 13183, "SpaceClaimSessionContainer": 0, "Mesh 11": 0}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS-12</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Mesh 11/SimulationConnection:SimulationConnection" Version="1.0">
+        <class-type valType="String">SimulationConnection</class-type>
+        <object-name valType="String">SimulationConnection</object-name>
+        <member-data valType="String">{"DisplayText": "SimulationConnection", "_IsAssemblyMeshing": None, "_MeshingSolverSetting": None, "Caption": "SimulationConnection", "EventIdToDataReferenceMap": {}, "DSIdToDataReferenceMap": {"13": {"CellModel": $$7acc873f-9788-43eb-8ea2-5bb2c387ea8a}, "10": {"CellModel": $$7acc873f-9788-43eb-8ea2-5bb2c387ea8a}, "14": {"CellModel": $$7acc873f-9788-43eb-8ea2-5bb2c387ea8a}}, "Attributes": {}}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/MechanicalSystemType:SystemType for Any|Any|Any" Version="1.0">
+        <class-type valType="String">MechanicalSystemType</class-type>
+        <object-name valType="String">SystemType for Any|Any|Any</object-name>
+        <member-data valType="String">{"DisplayText": None, "PhysicsType": "Any", "AnalysisType": "Any", "SolverType": "Any", "PhysicsTypeDisplayString": "Beliebig", "AnalysisTypeDisplayString": "Beliebig", "SolverTypeDisplayString": "Beliebig", "SystemTypeCombination": None, "DelimitedSystemTypeCominbation": None, "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "MechanicalSetup", "SolutionDataEntityType": "MechanicalSolution", "ResultsDataEntityType": "MechanicalResults", "Id": None, "SystemName": "SYS 11", "SystemID": "SYS-12", "ICEngineAutoSetup": False, "ICEngineMeshSettings": "Edit Mesh Settings", "ICEngineMeshPanelValues": None, "RefMeshSize": "0 [mm]"}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/MeshingMesh:MeshingMeshDataObject" Version="1.0">
+        <class-type valType="String">MeshingMesh</class-type>
+        <object-name valType="String">MeshingMeshDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "MeshingMeshDataObject", "Caption": "Mesh", "MeshId": 14}</member-data>
+        <custom-data>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ImportedMeshFileType valType="String">0</ImportedMeshFileType>
+          <value-keys valType="String">{"AttentionRequired": System.Boolean, "ImportedMeshFileType": System.Int32}</value-keys>
+          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
+          <transferDataMap />
+        </custom-data>
+      </Object>
+      <Object Name="/Mesh 11/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider" Version="1.0">
+        <class-type valType="String">MeshingGeneratedMeshOutputProvider</class-type>
+        <object-name valType="String">MeshingGeneratedMeshOutputProvider</object-name>
+        <member-data valType="String">{"DisplayText": "MeshingGeneratedMeshOutputProvider", "DataConnections": [], "TransferDataObject": $$c5f2672d-439b-404a-9756-25fec49f739b, "VersionNumber": 1, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider" Version="1.0">
+        <class-type valType="String">GeneratedMeshOutputForAQWAModelProvider</class-type>
+        <object-name valType="String">GeneratedMeshOutputForAQWAModelProvider</object-name>
+        <member-data valType="String">{"DisplayText": "GeneratedMeshOutputForAQWAModelProvider", "DataConnections": [], "TransferDataObject": $$5cae390f-dbfd-4b29-bfed-831325b5a4de, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/OutputsGeneratedManagerDataEntityType:OutputsGeneratedManagerObject" Version="1.0">
+        <class-type valType="String">OutputsGeneratedManagerDataEntityType</class-type>
+        <object-name valType="String">OutputsGeneratedManagerObject</object-name>
+        <member-data valType="String">{"DisplayText": "OutputsGeneratedManagerObject", "outputGeneratedTimes": {}}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/MeshProperties:MeshProperties" Version="1.0">
+        <class-type valType="String">MeshProperties</class-type>
+        <object-name valType="String">MeshProperties</object-name>
+        <member-data valType="String">{"DisplayText": "MeshProperties", "saveMeshFileInSeparateFile": False}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/MeshConversionOptions:MeshConversionOptions" Version="1.0">
+        <class-type valType="String">MeshConversionOptions</class-type>
+        <object-name valType="String">MeshConversionOptions</object-name>
+        <member-data valType="String">{"DisplayText": "MeshConversionOptions", "ToleranceAngle": "45 [degree]", "ForbidCloseComponents": False, "CutAngle": None, "ForceCDBImport": False, "CreateGeometryFaceComponents": True, "CreateGeometryEdgeComponents": True, "CreateGeometryVertexComponents": True, "ComponentKey": "", "GeometryImportAnalysisType": "ThreeDimensional", "BodyGroupingType": "MaterialNumber", "ProcessLineBodies": True, "VertexInsertionAngle": "120 [degree]", "CreateGeometry": True}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/ContainerConnections:ModelContainerConnections" Version="1.0">
+        <class-type valType="String">ContainerConnections</class-type>
+        <object-name valType="String">ModelContainerConnections</object-name>
+        <member-data valType="String">{"DisplayText": "ModelContainerConnections", "Connections": {"Geometry 21": {"$$6864c7d6-aca9-4c77-8c90-281ea7bdf6ae": {"Geometry": ["e00ad2e3-d3dd-4f35-ad41-0dc2affcba88"]}}}}</member-data>
+      </Object>
+      <Object Name="/Mesh 11/MechanicalModel:MechanicalModel" Version="1.0">
+        <class-type valType="String">MechanicalModel</class-type>
+        <object-name valType="String">MechanicalModel</object-name>
+        <member-data valType="String">{"DisplayText": "MechanicalModel", "Caption": "Model", "File": $$29aeea30-8fc7-4445-952f-eb43f6a79f0c, "MeshFile": None, "EdaFile": None, "SpaceClaimMeshFile": None, "ModelId": 10, "PrototypeId": 13, "ModelHash": "724e70e2-9804-4957-999a-f28a25b0b487", "GeometryHash": "724e70e2-9804-4957-999a-f28a25b0b487", "IsResetNotRequired": False}</member-data>
+        <custom-data>
+          <File valType="String">29aeea30-8fc7-4445-952f-eb43f6a79f0c</File>
+          <FilePath valType="String"></FilePath>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ParameterValueModified valType="String">False</ParameterValueModified>
+          <IsModifiedDueToModelAssemblyPropertyChange valType="String">False</IsModifiedDueToModelAssemblyPropertyChange>
+          <IsModifiedDueToMeshConversionPropertyChange valType="String">False</IsModifiedDueToMeshConversionPropertyChange>
+          <AttachType valType="String">0</AttachType>
+          <value-keys valType="String">{"File": System.String, "FilePath": System.String, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean, "IsModifiedDueToModelAssemblyPropertyChange": System.Boolean, "IsModifiedDueToMeshConversionPropertyChange": System.Boolean, "AttachType": System.Int32}</value-keys>
+        </custom-data>
       </Object>
     </Container>
   </Containers>

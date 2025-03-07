@@ -1,0 +1,48 @@
+# encoding: utf-8
+# 2024 R2
+SetScriptVersion(Version="24.2.133")
+system1 = GetSystem(Name="SYS 9")
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+Save(Overwrite=True)
+template1 = GetTemplate(TemplateName="Geometry")
+system2 = GetSystem(Name="SYS 8")
+system3 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system2)
+geometry1 = system3.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+system3.DisplayText = "8 Sided Shape"
+system4 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometry2 = system4.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+system4.DisplayText = "9 Sided Shape"
+system5 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system3)
+system5.DisplayText = "10 Sided Shape"
+geometry3 = system5.GetContainer(ComponentName="Geometry")
+geometry3.Edit(IsSpaceClaimGeometry=True)
+geometry3.Exit()
+system6 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system4)
+system6.DisplayText = "11 Sided Shape"
+geometry4 = system6.GetContainer(ComponentName="Geometry")
+geometry4.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+geometry4.Exit()
+system7 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system5)
+system7.DisplayText = "12 Sided Shape"
+Save(Overwrite=True)
+geometry5 = system7.GetContainer(ComponentName="Geometry")
+geometry5.Edit(IsSpaceClaimGeometry=True)
+geometry5.Exit()
+Save(Overwrite=True)
